@@ -1,0 +1,27 @@
+Python Collection Framework
+The collection framework in Python provides an architecture to store and manipulate groups of objects. The built-in data structures in Python, like lists, dictionaries, and sets, serve similar purposes as Java's collections.
+
+Collection Framework Used in This Project
+In Graph.py:
+
+List: Similar to Java's ArrayList and LinkedList, Python lists are dynamic arrays that can grow and shrink in size.
+Dictionary: Similar to Java's HashMap, Python dictionaries store key-value pairs.
+In Heap.py:
+
+Dictionary: Used to store key-value pairs.
+List: Used to implement the heap structure.
+Data Structures
+Data structures are ways of organizing data in a computer so that it can be used effectively. The data structures used in this project are:
+
+List: Implemented using Python's built-in list class, which is a dynamic array that can resize.
+Dictionary: Used to store key-value pairs for quick lookups.
+Linked List: Can be implemented manually if needed, though Python's list provides similar functionality.
+Heap: Implemented using a combination of lists and dictionaries.
+Stack: Can be implemented using lists in Python, following the Last In First Out (LIFO) principle.
+Graph: A complex data structure containing vertices and edges connecting these vertices, implemented using lists and dictionaries.
+Implementation Overview
+The array data structure is implemented using Python's list class, which stores data in contiguous memory locations.
+The dictionary data structure is used to store key-value pairs, providing fast access to data.
+The stack data structure can be easily implemented using Python lists, leveraging the built-in list methods.
+The heap is implemented with the help of lists and dictionaries, where the elements are organized in a specific order.
+The graph is implemented using lists and dictionaries to represent vertices and edges effectively.
